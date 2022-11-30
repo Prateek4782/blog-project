@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+body{
+    margin: 0;
+     font-family:'Ubuntu', sans-serif; ;
+}
+.navbar{
+    display: flex;
+    /* border-bottom: 1px solid lightgrey; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0px;
+    width: 992px;
+}
+.nav{
+    margin: 0px auto;
+    /* width: 992px; */
+    border: 1px solid rgb(237, 237, 237);
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 26px;
+    color: black;
+    font-family: 'Patrick Hand SC', cursive;
+}
+.navbar-links{
+    list-style: none;
+    display: flex;
+}
+.navlink{
+text-decoration: none;
+color: black;
+    margin: 0 10px;
+}
+.nav-btn{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 10px;
+}
+.navlink:hover{
+    color: grey;
+}
+section{
+    margin: 50px auto;
+    width: 992px;
+}
+.hero-container{
+    display: flex;
+    justify-content: space-between;
+}
+.title{
+    font-size: 46px;
+    margin-bottom: 6px;
+}
+.desc{
+    font-size: 20px;
+}
+.intro{
+    width: 600px;
+}
+.user{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
